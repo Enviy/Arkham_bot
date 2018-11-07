@@ -4,7 +4,7 @@
 
 Objective:
 
-Tensorflow: Train a model on the collected works of H.P. Lovecraft in order to generate variable lengths of 'Lovecraft-like' text.
+Tensorflow: Train a model on the collected works of H.P. Lovecraft. Output is variable lengths of programmatically generated 'Lovecraft-like' text.
 
 S3 & Lambda: Host the trained model in S3 and load it as needed from the Flask application script in Lambda. This is expected to execute when the application recieves the appropriate POST reqeust.
 
